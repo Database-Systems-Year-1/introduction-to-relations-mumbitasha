@@ -1,0 +1,36 @@
+CREATE TABLE workersatstrathmore(
+NAME VARCHAR(225),
+Age INT,
+DOB INT,
+Duty VARCHAR(225)
+);
+
+INSERT INTO workersatstrathmore(Name,Age,DOB,Duty)
+VALUES
+('Natasha Mutunga',18,96,'Washroom'),
+('Sean Kwendo', 29,98, 'Corridor'),
+('Elizabeth Wahu',27,02, 'Stairs');
+SELECT * FROM workersatstrathmore;
+
+CREATE TABLE phonesatmyshop(
+NAME VARCHAR(689),
+CHARGERTYPE VARCHAR(10),
+QUANTITYAVAILABLE INT
+INSERT INTO phonesatmyshop(Name,CHARGERTYPE,QUANTITYAVAILABLE)
+VALUES
+('Samsung','B',20),
+('Iphone','A',12),
+('Infinix','C',3);
+SELECT * FROM phonesatmyshop;
+
+CREATE TABLE studentpercourses(
+NAME VARCHAR(553),
+UNITNO VARCHAR(553),
+GROUPNAME VARCHAR(2),
+INSERT INTO studentpercourses(Name,UNITNO,GROUPNAME)
+VALUES
+('BBIT','2','BBTA');
+('BCOM','4','BCOB');
+('ICS','5','ICSC');
+SELECT * FROM studentpercourses;
+
